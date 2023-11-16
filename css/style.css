@@ -1,0 +1,55 @@
+:root {
+    --site-color: #d5e1ef;
+    --site-color-blue-01: #4a26d0;
+
+
+    --site-color-01-hover: #5c3a08;
+    --site-color-02: #1a253a;
+
+}
+
+@font-face {
+    font-family: HankenGrotesk;
+    src: url(../assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+}
+
+
+body {
+    background-color: var(--site-color);
+
+}
+
+.card {
+    background-color: #fff;
+    height: 496px;
+    width: 318px;
+    border-radius: 1rem;
+    margin: 5rem auto;
+}
+
+.frame {
+    height: 286px;
+    width: 286px;
+    margin: 40px auto;
+}
+
+.qr {
+    border-radius: 0.5rem;
+    margin: 20px auto;
+}
+
+.message-head {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 15px 40px;
+    text-align: center;
+}
+
+.message {
+    color: #9c9eab;
+    margin: 10px 45px;
+    text-align: center;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
